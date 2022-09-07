@@ -1,4 +1,4 @@
-DOM Selectors
+ DOM Selectors
 --------------
 getElementsByTagName
 getElementsByClassName
