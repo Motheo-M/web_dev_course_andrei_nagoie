@@ -2,8 +2,8 @@
 
 // #1) Line up the Turtle and the Rabbit at the start line:
 const startLine = '     ||<- Start line';
-let turtle = '🐢';
-let rabbit = '🐇';
+let turtle = '🐢'; //padStart = 9;
+let rabbit = '🐇'; //padStart = 9;
 
 // it should look like this:
 '     ||<- Start line'
@@ -18,7 +18,7 @@ console.log(rabbit);
 
 // #2) What happens when you run turtle.trim().padEnd(9, '=') on the turtle variable
 // Read about what the second parameter does in padEnd and padStart
-turtle = turtle.trim().padEnd(9, '=');
+turtle = turtle.trim().padEnd(9, '='); // Multiple = signs after the turtle (7 in total)
 
 
 // #3) Get the below object to go from:
@@ -29,3 +29,7 @@ let obj = {
 }
 // to this:
 'my name is Rudolf the raindeer'
+
+Object.keys(obj).forEach(value => {
+    console.log()
+})
