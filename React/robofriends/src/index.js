@@ -6,7 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
 ReactDOM.render(
-    <Card />, document.getElementById('root')
+    <div>
+        <Card />
+        <Card />
+        <Card />
+    </div>
+    , document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
